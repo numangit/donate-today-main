@@ -18,6 +18,8 @@ body {
 /* Home */
 .home {
     background-image: url(images/donation13.jpg);
+    background-repeat: no-repeat;
+    background-size: 1450px 500px;
 }
 
 .home-text {
@@ -78,4 +80,67 @@ body {
 
 .donate-amount {
     /*nothing yet*/
+}
+
+/* Donation plan*/
+.plan {
+    padding: 20px;
+    text-align: center;
+}
+
+.plan-text h2 {
+    font-weight: 800;
+    font-size: 45px;
+}
+
+.plan-text p {
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.plan-cards {
+    margin: 5rem 15rem;
+    display: flex;
+}
+
+.food {
+    background-color: rgb(198, 238, 252);
+}
+
+.shelter {
+    background-color: rgb(253, 211, 217);
+}
+
+.education {
+    background-color: rgb(253, 253, 226);
+}
+
+.card {
+    width: 100%;
+    text-align: left;
+    padding: 40px 30px 40px 20px;
+    margin: 0px 10px;
+    border-radius: 15px;
+}
+
+.card-text h3 {
+    font-weight: 900;
+    font-size: 25px;
+}
+
+/*footer*/
+footer {
+    text-align: center;
+    background-color: black;
+    padding: 30px 0;
+}
+
+footer h2 {
+    font-size: 25px;
+    color: tomato;
+    font-family: cursive;
+}
+
+footer p {
+    color: white;
 }
