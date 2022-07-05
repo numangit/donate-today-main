@@ -23,7 +23,7 @@ body {
 }
 
 .home-text {
-    padding: 4rem 15rem;
+    padding: 4rem 20rem;
     text-align: center;
 }
 
@@ -43,7 +43,7 @@ body {
 
 /* Donate today */
 .donate-today {
-    padding: 45px;
+    padding: 4rem 20rem;
     text-align: center;
 }
 
@@ -58,7 +58,7 @@ body {
 }
 
 .donate-amount {
-    margin: 5rem 15rem;
+    margin: 60px 0px;
     display: flex;
 }
 
@@ -84,7 +84,7 @@ body {
 
 /* Donation plan*/
 .plan {
-    padding: 20px;
+    padding: 4rem 10rem;
     text-align: center;
 }
 
@@ -99,7 +99,6 @@ body {
 }
 
 .plan-cards {
-    margin: 5rem 15rem;
     display: flex;
 }
 
@@ -126,6 +125,29 @@ body {
 .card-text h3 {
     font-weight: 900;
     font-size: 25px;
+}
+
+/*updates*/
+.updates {
+    padding: 4rem 20rem;
+    text-align: center;
+}
+
+.updates-text h2 {
+    font-weight: 800;
+    font-size: 45px;
+}
+
+.updates-text p {
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.subscribe {
+
+    padding: 60px 80px;
+    background-color: lightsalmon;
+    border-radius: 20px;
 }
 
 /*footer*/
