@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+.button {
+    color: white;
+    background-color: tomato;
+    padding: 15px 25px;
+    text-decoration: none;
+    font-weight: 200;
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+/* home */
+.home {
+    background-image: url(images/donation13.jpg);
+}
+
+.home-text {
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+.home h1 {
+
+    font-weight: 700;
+    font-size: 70px;
+    color: white;
+}
+
+.home p {
+    font-size: 20px;
+    color: white;
+    padding-bottom: 20px;
+}
