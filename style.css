@@ -5,15 +5,17 @@ body {
 
 .button {
     color: white;
-    background-color: tomato;
+    background-color: orangered;
+    margin-top: 30px;
     padding: 15px 25px;
     text-decoration: none;
     font-weight: 200;
     font-size: 20px;
-    border-radius: 15px;
+    border-radius: 10px;
+    border: 0px;
 }
 
-/* home */
+/* Home */
 .home {
     background-image: url(images/donation13.jpg);
 }
@@ -31,7 +33,49 @@ body {
 }
 
 .home p {
-    font-size: 20px;
+    font-weight: 400;
+    font-size: 25px;
     color: white;
     padding-bottom: 20px;
+}
+
+/* Donate today */
+.donate-today {
+    padding: 45px;
+    text-align: center;
+}
+
+.donate-text h2 {
+    font-weight: 800;
+    font-size: 45px;
+}
+
+.donate-text p {
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.donate-amount {
+    margin: 5rem 15rem;
+    display: flex;
+}
+
+.amount {
+    font-weight: 900;
+    font-size: 35px;
+    padding: 10px 40px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: rgb(231, 231, 229);
+}
+
+#selected-amount {
+    color: orangered;
+    border: 2.5px solid red;
+    border-radius: 10px;
+    background-color: rgb(255, 236, 236);
+}
+
+.donate-amount {
+    /*nothing yet*/
 }
