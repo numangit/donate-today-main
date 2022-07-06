@@ -20,16 +20,17 @@ body {
 .home {
     background-image: url(images/donation13.jpg);
     background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
     background-size: 1450px 500px;
 }
 
 .home-text {
-    padding: 4rem 20rem;
+    padding: 2rem 20rem;
     text-align: center;
 }
 
 .home h1 {
-
     font-weight: 700;
     font-size: 70px;
     color: white;
@@ -77,10 +78,6 @@ body {
     border: 2.5px solid red;
     border-radius: 10px;
     background-color: rgb(255, 236, 236);
-}
-
-.donate-amount {
-    /*nothing yet*/
 }
 
 /* Donation plan*/
@@ -170,7 +167,7 @@ body {
     font-size: 25px;
 }
 
-.subscribe {
+form {
     padding: 60px 80px;
     background-color: lightsalmon;
     border-radius: 20px;
