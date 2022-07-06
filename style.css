@@ -1,5 +1,6 @@
 body {
-    margin: 0;
+    padding: 0px;
+    margin: 0px;
     font-family: 'Raleway', sans-serif;
 }
 
@@ -58,6 +59,7 @@ body {
 }
 
 .donate-amount {
+    margin: 40px 0px;
     display: flex;
 }
 
@@ -66,7 +68,7 @@ body {
     font-size: 35px;
     padding: 10px 40px;
     margin: 10px;
-    border-radius: 10px;
+    border-radius: 5px;
     background-color: rgb(231, 231, 229);
 }
 
@@ -98,6 +100,7 @@ body {
 }
 
 .plan-cards {
+    margin-top: 100px;
     display: flex;
 }
 
@@ -128,9 +131,8 @@ body {
 
 /*faq*/
 .faq {
-    padding: 2rem 10rem;
+    padding: 2rem 15rem;
     text-align: center;
-    background-repeat: no-repeat;
 }
 
 .faq h2 {
@@ -144,8 +146,9 @@ body {
 }
 
 .faq-text {
-    margin: 20px;
-    padding: 10px 0px;
+    text-align: left;
+    margin-top: 25px;
+    padding: 10px 10px;
     box-shadow: 0px 1px 5px rgb(96, 225, 165);
     border-radius: 15px;
     background-color: rgb(210, 250, 210);
