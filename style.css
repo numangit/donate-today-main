@@ -22,11 +22,11 @@ body {
     background-repeat: no-repeat;
     height: 100%;
     width: 100%;
-    background-size: 1450px 500px;
+    background-size: 100%;
 }
 
 .home-text {
-    padding: 2rem 20rem;
+    padding: 10rem 20rem;
     text-align: center;
 }
 
@@ -45,8 +45,8 @@ body {
 
 /* Donate today */
 .donate-today {
-    padding: 4rem 20rem;
     text-align: center;
+    padding: 4rem 10rem;
 }
 
 .donate-text h2 {
@@ -69,6 +69,7 @@ body {
     font-size: 35px;
     padding: 10px 40px;
     margin: 10px;
+    width: 100%;
     border-radius: 5px;
     background-color: rgb(231, 231, 229);
 }
